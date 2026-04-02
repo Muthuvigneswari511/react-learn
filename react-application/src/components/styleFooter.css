@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foot{
+    background-color: black;
+    width: 100%;
+    
+}
+  
+
+.mails{
+    color:blue;
+}
