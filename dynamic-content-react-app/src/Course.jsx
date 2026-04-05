@@ -1,12 +1,15 @@
+import './style.css';
 
 
 const Course=(props)=>{
     return (
-        <>
-        <h1>{props.name}</h1>
-        <h1>{props.price}</h1>
-        <h1>{props.rating}</h1>
-        </>
+        <div className='course-card'>
+            <img src={props.image}/>
+        <h3 style={{color:"rgb(225, 245, 133)"}}>{props.name} Full Course</h3>
+        <p><del>{props.anotherprice}</del> &nbsp;${props.price}</p>
+        <p>Rating : {props.rating}</p>
+        <button>Buy now</button>
+        </div>
    );
 }
 
