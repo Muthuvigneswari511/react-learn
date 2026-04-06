@@ -9,7 +9,7 @@ body{
 
 
   width:100vw;  
-  height: 100vh;
+  height: 82vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,4 +53,20 @@ gap:5px;
   transition: 0.4s;
    transform: scale(1.02);
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.but{
+  background-color: #aa1ff5;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.but:hover{
+  box-shadow: 0 10px 25px rgba(6, 6, 6, 0.3);
+  transform: translateY(-1px);
+  transition: 0.3s;
+  transform: scale(1.04);
+  font-size: 15px;
+  background-color: #9d0eeb;
 }

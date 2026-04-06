@@ -1,11 +1,12 @@
-
-import CourseList from "./CourseList";
+import Header from "./header";
 
 
 const App=()=>{
   return(
     <>
-    <CourseList/></>
+    <Header/>
+    
+    </>
   );
 }
 
