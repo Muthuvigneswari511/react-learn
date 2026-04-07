@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { useEffect } from "react";
+import { useEffect } from "react";  //api fetch,Timer,Event listener
+                                    //state change tracking,local storage,
+                                    //cleanup work
 
 const UseEffect=()=>{
     const [data,setData]=useState([]);

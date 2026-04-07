@@ -70,3 +70,11 @@ gap:5px;
   font-size: 15px;
   background-color: #9d0eeb;
 }
+
+.nav .link{
+  text-decoration: none;
+  display: flex;
+
+  justify-content: end;
+
+}
