@@ -1,0 +1,72 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "profilePic": "src/assets/profile1.jfif",
+      "image": "src/assets/image1.jpg",
+      "caption": "Enjoying the beach 🌊",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice",
+          "text": "Wow nice view!"
+        },
+        {
+          "user": "bob",
+          "text": "Amazing 😍"
+        }
+      ],
+      "time": "2 hours ago"
+    },
+    {
+      "id": 2,
+      "username": "muthu_dev",
+      "profilePic": "src/assets/profile2.jfif",
+      "image": "src/assets/image2.jpg",
+      "caption": "Coding life 💻🔥",
+      "likes": 250,
+      "comments": [
+        {
+          "user": "react_learner",
+          "text": "Keep going bro!"
+        }
+      ],
+      "time": "5 hours ago"
+    },
+    {
+      "id": 3,
+      "username": "travel_girl",
+      "profilePic": "src/assets/profile3.jfif",
+      "image": "src/assets/image3.jpg",
+      "caption": "Nature vibes 🌿",
+      "likes": 340,
+      "comments": [
+        {
+          "user": "nature_lover",
+          "text": "So peaceful 😌"
+        },
+        {
+          "user": "john_doe",
+          "text": "Where is this?"
+        }
+      ],
+      "time": "1 day ago"
+    },
+    {
+      "id": 4,
+      "username": "foodie_king",
+      "profilePic": "src/assets/profile4.jfif",
+      "image": "arc/assets/image4.jpg",
+      "caption": "Delicious pizza 🍕",
+      "likes": 500,
+      "comments": [
+        {
+          "user": "chef_master",
+          "text": "Looks tasty!"
+        }
+      ],
+      "time": "3 days ago"
+    }
+  ]
+}

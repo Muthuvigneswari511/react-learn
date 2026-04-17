@@ -1,0 +1,39 @@
+{
+  "contacts": [
+    {
+      "email": "",
+      "id": "1"
+    },
+    {
+      "email": "muthua8930@gmail.com",
+      "id": "2"
+    }
+  ],
+  "logs": [
+    {
+      "message": "Email updated",
+      "id": "IvgaJT0qzHw"
+    },
+    {
+      "message": "Email updated",
+      "id": "uAxVDjq98Qo"
+    },
+    {
+      "message": "Email updated",
+      "id": "TBqXffODftU"
+    },
+    {
+      "message": "Email updated",
+      "id": "1KELSIeGWjA"
+    },
+    {
+      "message": "Email updated",
+      "id": "zNmLHHasBZM"
+    },
+    {
+      "message": "Email updated",
+      "id": "_36w4VFR6mw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
