@@ -13,3 +13,20 @@
 .story{
     height: 80px;
 }
+.dp{
+    height:20px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.image{
+    width: 300px;
+}
+.suggestions{
+    width: 80%;
+}
+.suggestions h5{
+    font-size: 16px;
+}
+.suggestions .dp{
+    margin-top: 0;
+}
