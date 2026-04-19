@@ -71,8 +71,8 @@
   ],
   "profile": {
     "id": 1,
-    "username": "Muthu_Developer",
-    "profilePic": "src/assets/image4.jpg"
+    "username": "Muthuvigneswari_FullStackDeveloper",
+    "profilePic": "src/assets/image3.jpg"
   },
   "suggestion": [
     {
@@ -127,6 +127,11 @@
       "image": "/story4.webp"
     }
   ],
-  "followers": [],
+  "followers": [
+    {
+      "id": "eALxDumBmj8",
+      "username": "muthu_dev"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

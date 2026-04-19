@@ -47,7 +47,9 @@ const Profile =()=>{
                 <button className="btn btn-primary my-4" onClick={handleUpdate}>Update</button>
                 </div>):
                 (<div>Loading profile</div>)}
+                <div className="text-primary  fw-semibold">Following</div>
                 {followers.length>0 ? (
+                    
                     followers.map(follower=>(
                         <div key={follower.id} className="d-flex align-items-center gap-3 my-2">
                             {follower.username}

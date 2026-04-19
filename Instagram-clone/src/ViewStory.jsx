@@ -19,7 +19,7 @@ const ViewStory=()=>{
         .catch(err=>console.log(err))
     },[id]);
     if(id>tot|| id<1){
-        navigate('/')
+        navigate('/home')
     }
     return(
         <div>
