@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "username": "john_doe",
       "profilePic": "src/assets/profile1.jfif",
       "image": "src/assets/image1.jpg",
@@ -20,7 +20,7 @@
       "time": "2 hours ago"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "muthu_dev",
       "profilePic": "src/assets/profile2.jfif",
       "image": "src/assets/image2.jpg",
@@ -35,7 +35,7 @@
       "time": "5 hours ago"
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "travel_girl",
       "profilePic": "src/assets/profile3.jfif",
       "image": "src/assets/image3.jpg",
@@ -54,7 +54,7 @@
       "time": "1 day ago"
     },
     {
-      "id": 4,
+      "id": "4",
       "username": "foodie_king",
       "profilePic": "src/assets/profile4.jfif",
       "image": "src/assets/image4.jpg",
@@ -69,67 +69,88 @@
       "time": "3 days ago"
     }
   ],
-  "profile":{
+  "profile": {
     "id": 1,
-      "username": "john_doe",
-      "profilePic": "src/assets/profile1.jfif"
+    "username": "goms.io",
+    "profilePic": "src/assets/image4.jpg"
   },
-  "suggestion":[
-{
-  "id": 1,
+  "suggestion": [
+    {
+      "id": "1",
       "username": "john_doe",
       "profilePic": "src/assets/profile1.jfif"
-},
-{
-  "id": 2,
+    },
+    {
+      "id": "2",
       "username": "muthu_dev",
       "profilePic": "src/assets/profile2.jfif"
-},
-{
-  "id": 3,
+    },
+    {
+      "id": "3",
       "username": "travel_girl",
       "profilePic": "src/assets/profile3.jfif"
-},
-{
-  "id": 4,
+    },
+    {
+      "id": "4",
       "username": "foodie_king",
       "profilePic": "src/assets/profile4.jfif"
-}
-,{
-  "id": 5,
+    },
+    {
+      "id": "5",
       "username": "foods",
       "profilePic": "src/assets/profile4.jfif"
-}
-
+    }
   ],
   "story": [
     {
-      "id": 1,
+      "id": "1",
       "username": "john_doe",
       "profilePic": "src/assets/profile1.jfif",
       "image": "/story1.webp"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "muthu_dev",
       "profilePic": "src/assets/profile2.jfif",
       "image": "/story2.webp"
-      
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "travel_girl",
       "profilePic": "src/assets/profile3.jfif",
       "image": "/story3.jpg"
-      
     },
     {
-      "id": 4,
+      "id": "4",
       "username": "foodie_king",
       "profilePic": "src/assets/profile4.jfif",
       "image": "/story4.webp"
     }
-  ]
-  
+  ],
+  "followers":[
+  {
+    "id": "1",
+      "username": "john_doe",
+      "profilePic": "src/assets/profile1.jfif"
+      
 
+  },
+  {
+      "id": "2",
+      "username": "muthu_dev",
+      "profilePic": "src/assets/profile2.jfif"
+  },
+  {
+      "id": "3",
+      "username": "travel_girl",
+      "profilePic": "src/assets/profile3.jfif"
+      
+    },
+    {
+       "id": "4",
+      "username": "foodie_king",
+      "profilePic": "src/assets/profile4.jfif"
+    }
+],
+  "$schema": "./node_modules/json-server/schema.json"
 }
