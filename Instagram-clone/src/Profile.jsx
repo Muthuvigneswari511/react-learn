@@ -6,18 +6,17 @@ const Profile =()=>{
 
     const [followers,setFollowers]=useState([]);
 
+    const [unfollowed,setUnfollowed]=useState(0);
+
     useEffect(()=>{
         axios.get('http://localhost:3000/profile')
-        .then(data=>{setProfile(data.data);
-            console.log(data);
-            
-
-        })
+        .then(data=>setProfile(data.data)
+            )
         .catch((err)=>console.log(err));
-        axios.get('https://localhost:3000/followers')
-        .then(data=>setFollowers(data))
+        axios.get('http://localhost:3000/followers')
+        .then(data=>setFollowers(data.data) )
         .catch(err=>console.log(err))
-    },[])
+    },[unfollowed])
     const handleOnChange=(e)=>{
         setProfile(prev=>(
             {
@@ -31,7 +30,12 @@ const Profile =()=>{
         .then(console.log("Updated"))
         .catch((err)=>console.log(err))
     }
-
+    const handleUnfollow=async(id)=>{
+        axios.delete(`http://localhost:3000/followers/${id}`)
+        .then(alert("Unfollowed"))
+        .then(setUnfollowed(!unfollowed))
+        .catch(err=>console.log(err))
+    }
     return(
         <div className="m-4">
         {profile ?
@@ -44,11 +48,16 @@ const Profile =()=>{
                 </div>):
                 (<div>Loading profile</div>)}
                 {followers.length>0 ? (
-                    followers.map(follower=>{
-                        <div key={follower.id}></div>
-                    })
-                )
-        </div>
+                    followers.map(follower=>(
+                        <div key={follower.id} className="d-flex align-items-center gap-3 my-2">
+                            {follower.username}
+                            <button className="btn btn-secondary btn-gray rounded" onClick={()=>{handleUnfollow(follower.id)}}>unfollow</button>
+                        </div>
+                    ))
+                ):(
+                    <div>Loading followers</div>
+                )}
+      </div>
     );
 }
 export default Profile;
